@@ -95,7 +95,7 @@ const NewPage = (): JSX.Element => {
                   <label htmlFor="title">Nombre</label>
                   <input
                     type="text"
-                    placeholder="escribe un titulo"
+                    placeholder="escriba su nombre"
                     name="title"
                     onChange={handleChange}
                     value={task.title}
@@ -117,7 +117,7 @@ const NewPage = (): JSX.Element => {
                   <label htmlFor="price">Precio</label>
                   <input
                     type="number"
-                    placeholder="escribe su precio"
+                    placeholder="Escriba su precio"
                     name="price"
                     onChange={handleChange}
                     value={task.price}
@@ -130,7 +130,7 @@ const NewPage = (): JSX.Element => {
                     name="ingredients"
                     id="ingredients"
                     rows={2}
-                    placeholder="Escriba los ingredientes"
+                    placeholder="Escriba sus ingredientes"
                     onChange={handleChange}
                     value={task.ingredients}
                   ></textarea>
@@ -160,8 +160,8 @@ const NewPage = (): JSX.Element => {
       </Grid>
 
       <Confirm
-        header="Delete a Task"
-        content={`Are you sure you want to delete task ${router.query.id}`}
+        header=""
+        content={`¿Estás seguro de que quieres eliminar el registro?`}
         open={openConfirm}
         onCancel={() => setOpenConfirm(false)}
         onConfirm={() =>
