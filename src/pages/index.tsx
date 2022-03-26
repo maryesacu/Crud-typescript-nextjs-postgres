@@ -27,7 +27,7 @@ const Home:FC<Props> = ({ tasks }) => {
             <Grid.Column>
               <div style={{ color: "#eee", textAlign: "center" }}>
                 <BiTaskX size="15rem" />
-                <h1>Aún no hay tareas</h1>
+                <h1>Aún no hay registros</h1>
                 <Button onClick={() => push("/tasks/new")}>Crea uno</Button>
               </div>
             </Grid.Column>
