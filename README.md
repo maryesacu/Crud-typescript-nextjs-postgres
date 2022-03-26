@@ -12,7 +12,7 @@ In order to execute this project you must have:
 ### Installation
 
 ```
-git clone https://github.com/FaztWeb/nextjs-postgres-crud-typescript
+git clone https://github.com/maryesacu/Crud-typescript-nextjs-postgres.git
 cd nextjs-postgres-crud-typescript
 npm install
 npm run dev
