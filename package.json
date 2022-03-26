@@ -1,0 +1,28 @@
+{
+  "name": "next-postgres-crud-typescript",
+  "version": "0.1.1",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "^12.1.0",
+    "pg": "^8.7.1",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-icons": "^4.3.1",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^2.0.4"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.23",
+    "@types/pg": "^8.6.1",
+    "@types/react": "^17.0.34",
+    "eslint": "^8.2.0",
+    "eslint-config-next": "12.0.3",
+    "typescript": "^4.4.4"
+  }
+}
